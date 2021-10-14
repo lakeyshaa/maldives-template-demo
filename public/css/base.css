@@ -1,4 +1,4 @@
-*{
+/**{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -26,6 +26,39 @@ body {
     color: black;
     font-size: 0.875rem;
     padding: 30px 0;
-  }
+  }*/
 
- 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100%;
+    min-height: 100vh;
+  }
+  
+  footer {
+    background-color: gray;
+    color: white;
+    font-size: 0.875rem;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ddd;
+    margin-bottom: 20px;
+    padding: 20px 0;
+  }
+  
+  html {
+    color: black;
+    font-family: sans-serif;
+    height: 100%;
+  }
+  
+  main {
+    flex: 1;
+  }
